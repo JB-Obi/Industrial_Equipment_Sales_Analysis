@@ -87,7 +87,7 @@ The analysis followed a structured, multi-phase approach to ensure data integrit
         - Continue executing customer acquisition and retention strategies.
         - Introduce loyalty programs, personalized promotions, or targeted marketing to deepen engagement and encourage repeat purchases.
 3. High-Value Transactions
-    - 23.3% of all transactions had both unit price and quantity sold above their respective averages — revealing that a substantial portion of sales contributes significantly to revenue.
+    - 23.3% of all transactions had both unit price and quantity sold above their respective averages, revealing that a substantial portion of sales contributes significantly to revenue.
     - A follow-up profitability analysis was advised to confirm whether high-revenue transactions also deliver strong margins.
 
 4. Revenue Balance Across Product Lines
