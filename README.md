@@ -16,29 +16,30 @@ This analysis examines the various products, product categories, sales days, and
 Assumptions include the accuracy of transaction data and the exclusion of returns. Deliverables include, in-depth analysis of the data supplied, a detailed written data analysis report, actionable insights, and recommendations for optimizing sales strategies.
 
 ## Dataset
-- Source: Frank Industries transaction database
+- Source: Frank Industries' transaction database
 - Format: .csv
 
 ## Tools Used
 - SQL (PostgreSQL) for querying and analysis
 - Highlights:
-    - Table creation with Primary Key and constraints
-    - Aggregation, PERCENTILE, CASE functions for summarizing transactional data
+    - Table creation with Primary Key and other constraints
+    - Aggregation, PERCENTILE, and CASE functions for summarizing transactional data
     - Date and time with EXTRACT functions for trend analysis
 
 ## Key Insights and Recommendations
 1. Products are Well Diversified 
-Within the time period, 318 products were sold. This clearly shows that the products sold by Frank’s are highly diversified. The diversity is encouraged. However, more analysis needs to be done to analyze the inventory and procurement data in comparison with sales data, to identify less profitable and possible stagnating products.  
+    - Within the time period, 318 products were sold. This clearly shows that the products sold by Frank’s are highly diversified.
+    - The diversity was encouraged. However, more analysis needs to be done to analyze the inventory and procurement data in comparison with sales data, to identify less profitable and possible stagnating products.  
 
 2. Impressive Customer Base 
-The business successfully attracted 3,003 customers who made purchases within a span of 28 days, demonstrating strong customer reach and market presence. This solid customer base provides a strong foundation for future growth and increased revenue potential. 
-To sustain and build on this success, management should: 
-  - Continue implementing strategies that drive customer acquisition and retention.
-  - Explore opportunities for enhanced customer engagement, such as personalized promotions, loyalty programs, or targeted marketing campaigns to maintain momentum and encourage repeat purchases.
+    - The business successfully attracted 3,003 customers who made purchases within a span of 28 days, demonstrating strong customer reach and market presence. This solid customer base provides a strong foundation for future growth and increased revenue potential. 
+    - To sustain and build on this success, the recommendation was to: 
+      - Continue implementing strategies that drive customer acquisition and retention.
+      - Explore opportunities for enhanced customer engagement, such as personalized promotions, loyalty programs, or targeted marketing campaigns to maintain momentum and encourage repeat purchases.
 
 3. A Good Number of Transactions Draw in High Revenue 
-An examination of the records where the unit price and quantity sold both exceed their averages reveal that 23.3% of transactions (nearly 25% = a quarter) involved number of units sold and unit prices whichexceeded the average threshold. 
-The numbers are good. However, there should be analysis to ensure that the revenues are being translated into profits.
+    - An examination of the records where the unit price and quantity sold both exceed their averages reveal that 23.3% of transactions (nearly 25% = a quarter) involved number of units sold and unit prices whichexceeded the average threshold. 
+    - Further analysis was recommended, to ensure that the revenues are effectively translated into profits.
 
 4. High Revenue Generation Across Products 
 The analysis of revenue generated and sales quantity by product unearths a key insight that products with low volume sales also generate revenues which exceed the average revenue generated. This shows a balanced measure of revenue generation across products, highlighting a healthy product catalogue. 
